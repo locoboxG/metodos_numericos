@@ -3,8 +3,7 @@ import math
 class metodos :
     def __init__(self) -> None:
         pass
-    
-    
+ 
     def f_d_x (self, cual,vx): 
         if (cual==1):
             return math.cos(vx)-3*vx
